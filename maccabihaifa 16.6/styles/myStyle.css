@@ -1,0 +1,313 @@
+﻿body {
+    color: black;
+    background-color: rgba(224, 248, 224, 0.891);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    direction: rtl;
+    text-align: center;
+    margin: 30px;
+}
+
+img {
+    display: block;
+}
+
+
+.logo-link { 
+    z-index: 1;
+    display: inline;
+    float: right;
+}
+
+.logo-link:hovar {
+    opacity: .8;
+}
+.logo-link:link {
+    opacity: .7;
+}
+
+.manu {
+    z-index: 0; 
+    /* מי מעל מי */
+    justify-content: center;
+    /* יישור של שורה למרכז */
+    align-items: center;
+    /* display: flex; */
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.navigation-items {
+    opacity: .6;
+    letter-spacing: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: rgb(16, 34, 27);
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.navigation-items:hover {
+    opacity: .9;
+}
+.navigation-items:link {
+    opacity: .8;
+}
+
+.navigation-item {
+    opacity: 1;
+    color: white;
+    background-color: green;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 183px;
+    /* margin: auto; */
+}
+
+.navigation-item:hover {
+    opacity: 8;
+    color: rgb(0, 0, 0);
+}
+.navigation-item:link {
+    opacity: 7;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.logo-image {
+  width: 7%;
+  position: absolute;
+  right: 10px;
+}
+
+.navigation-items {
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.intopage {
+    align-items: center;
+    height: 620px;
+    width: auto;
+    background-image: url('../images/backruondimg.png');
+    background-position: 0 0;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.introbigtext {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 20px;
+    color: black;
+}
+
+.introtext {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 20px;
+    color: black; 
+    margin-top: 50px;
+
+}
+
+.buttom {
+    width: 226px;
+    height: 55px;
+    margin: 40px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.745);
+    font-family: auto;
+    font-size: 18px;
+}
+
+.jumbo {
+    align-items: center;
+}
+
+.video-title {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: auto;
+}
+
+.video {
+    margin-top: 100px;
+}
+
+.owl-item{
+    display: inline-block;
+    margin: 24px;
+}
+.counter {
+    font-size: 30px;
+    font-weight: 10px;
+    color: green;
+    display: block;
+    margin-bottom: 20px;
+}
+.logowinner{
+    height: 175px;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.textwinner {
+    margin-top: 20px;
+    font-size: 250x;
+    color: black;
+    display: block;
+    font-size: 25px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: auto;    
+}
+
+.winnings-wrapper {
+    background-color: rgb(138, 201, 142);
+
+}
+
+.theend {
+  margin: 30px;
+  background-color: lightgoldenrodyellow;
+  direction: ltr;
+}
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    width: 40%;
+
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    position: absolute;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev {
+    cursor: pointer;
+    position: relative
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    /* margin-top: 50px; */
+    margin-right: 300px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    clear: left;
+  }
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    /* margin-top: 50px; */
+    margin-right: 0px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    float: right;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: auto;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    right: auto;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .pictext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
