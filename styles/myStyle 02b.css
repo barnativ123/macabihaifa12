@@ -1,0 +1,241 @@
+﻿body {
+    color: black;
+    background-image: linear-gradient( white, rgba(31, 117, 34, 0.579));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    direction: rtl;
+    text-align: center;
+    margin: 30px;
+}
+
+img {
+    display: block;
+}
+
+.logo-link { 
+    z-index: 1;
+    display: inline;
+    float: right;
+}
+
+.logo-link:hover {
+    opacity: .8;
+}
+.logo-link:link {
+    opacity: .7;
+}
+
+.manu {
+    z-index: 0; 
+    /* מי מעל מי */
+    justify-content: center;
+    /* יישור של שורה למרכז */
+    align-items: center;
+    /* display: flex; */
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.navigation-items {
+    opacity: .6;
+    letter-spacing: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: rgb(16, 34, 27);
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.navigation-items:hover {
+    opacity: .9;
+}
+.navigation-items:link {
+    opacity: .8;
+}
+
+.navigation-item {
+    opacity: 1;
+    color: white;
+    background-color: green;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 183px;
+    /* margin: auto; */
+}
+
+.navigation-item:hover {
+    opacity: 8;
+    color: rgb(0, 0, 0);
+}
+.navigation-item:link {
+    opacity: 7;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.logo-image {
+  width: 7%;
+  position: absolute;
+  right: 10px;
+}
+
+.navigation-items {
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.introbigtext {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 20px;
+    color: black;
+}
+
+.introtext {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 20px;
+    color: black; 
+    margin-top: 50px;
+
+}
+
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: auto;    
+}
+.theend {
+  margin: 30px;
+  background-color: lightgoldenrodyellow;
+  direction: ltr;
+}
+
+/* עמוד שירי הקבוצה */
+.titleSongs{
+    margin-top: 30px;
+    font-family: auto;
+    background-color: rgba(197, 205, 197, 0.409);  
+    height: 280px;
+}
+.titleSongsBig {
+    margin: 0px;
+    padding: 50px;
+    font-size: 50px;
+}
+.titleSongsSmale {
+    padding: 30px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.theSongs {
+    margin: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: block;
+    position: absolute;
+    align-items: center;
+}
+
+h3 {
+    margin: 20px;
+    text-align: center;
+}
+
+.Songstext {
+    text-align: center; 
+    display: block;
+    position: relative;
+}
+
+.songs1 {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+.songs2 {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.songs3 {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.songsPart2 {
+    margin-top: 900px;
+    background-color: rgba(4, 155, 4, 0.635);
+}
+
+.bigtitlsong{
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* עמוד מפת אתר */
+th {
+    height:40px;
+    padding:8px;
+    background-color: rgba(131, 222, 131, 0.51);
+    width: 10%;
+
+}
+tr {
+    height:30px;
+    width: 50px;
+}
+td {
+    text-align:center;
+    vertical-align:middle;
+}
+
+.tablemap{
+    margin-top: 20px;
+}
+.bc {
+    display: inline-block;
+}
+
+.bc::after {
+    content: ">";
+}
+
+.bc:last-child::after{
+    content: "";
+}
+
+.divbc {
+    text-align: right;
+    display: block;
+}
